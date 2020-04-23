@@ -24,6 +24,8 @@ RUN apk upgrade --update \
     && chmod +x /usr/bin/v2ray/v2ray && chmod +x /usr/bin/v2ray/v2ctl \
     && apk del curl \
     && rm -rf /tmp/v2ray /var/cache/apk/*
+    
+RUN apk -sv fix
 
 EXPOSE 10800
 
