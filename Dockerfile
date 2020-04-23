@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.11.5
 LABEL maintainer="Ein Verne <einverne@gmail.com>"
 
 ENV TZ 'Asia/Shanghai'
